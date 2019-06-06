@@ -1,0 +1,26 @@
+{
+  "name": "seg-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyuanquan/seg-base.git"
+  },
+  "author": "liuyuanquan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuyuanquan/seg-base/issues"
+  },
+  "module": "src/index.js",
+  "homepage": "https://github.com/liuyuanquan/seg-base#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
