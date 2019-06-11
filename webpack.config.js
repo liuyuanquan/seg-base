@@ -10,10 +10,8 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve(__dirname, 'lib'),
     libraryTarget: 'umd',
-    library: 'seg-base'
-  },
-  externals: {
-    katex: 'katex'
+    library: 'seg-base',
+    globalObject: 'this'
   },
   module: {
     rules: [
