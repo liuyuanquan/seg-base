@@ -1,5 +1,5 @@
-import http from './http'
+import katex from './katex'
 
 export default {
-  http
+  katex
 }
